@@ -4,7 +4,7 @@ function work(number) {
   display.value += number
 }
 
-function Eval(params) {
+function Eval() {
   try {
     display.value = eval(display.value)
   } catch (error) {
@@ -12,9 +12,9 @@ function Eval(params) {
   }
 }
 
-function wipe(params) {
+function wipe() {
   display.value = ''
 }
-function del(params) {
+function del() {
   display.value = display.value.slice(0, -1)
 }
